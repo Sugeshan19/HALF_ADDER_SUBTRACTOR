@@ -18,7 +18,8 @@ Half adder is a combinational circuit that performs simple addition of two binar
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
-![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/bd4a0b2c-cdbc-4184-ab08-81578f121e1f)
+![experiment3 half adder logic diagram](https://github.com/user-attachments/assets/3c80950b-f046-42ff-bb92-a4ed16c12394)
+
 
 Figure -01 HALF ADDER
 
@@ -29,11 +30,15 @@ The half-subtractor is a combinational circuit which is used to perform subtract
 Diff = A’B+AB’ =A ⊕ B
 Borrow = A’B
 
- ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
+![experiment3 half subractor logic diagram](https://github.com/user-attachments/assets/fcaf0380-7265-42e1-9575-7c16a6f30110)
 
 Figure -02 HALF Subtractor
 
 **Truthtable**
+![half adder truth table](https://github.com/user-attachments/assets/990364b4-f353-4d7b-a7bd-95d89dd97af6)
+
+![half subtractor truth table](https://github.com/user-attachments/assets/ed7421ba-cf5f-44cd-ba77-33a83801af86)
+
 
 **Procedure**
 
@@ -49,13 +54,37 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by:sugeshan
+RegisterNumber:24007573
+
+i)HALF ADDER
+
+module ha(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= (a ^ b);
+assign carry= ( a & b);
+endmodule
+
+ii)HALF SUBTRACTOR
+
+module hs(a,b,difference,borrow);
+input a,b;
+output difference,borrow;
+assign difference= (a ^ b);
+assign borrow= ( ~a & b);
+endmodule
+
 
 **RTL Schematic**
+![experiment3 half adder waveform](https://github.com/user-attachments/assets/c4618a8f-395f-4683-8984-1eddf7863857)
+![experiment3 half subractor waveform](https://github.com/user-attachments/assets/55b38c2a-5287-4ab8-84f7-d1dc19a78ed6)
 
 **Output/TIMING Waveform**
 
 **Result:**
+The truth table of the specified half adder and half subtractor was successfully implemented and verified using Verilog
+programming in Quartus II.
+
