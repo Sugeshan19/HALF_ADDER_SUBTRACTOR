@@ -35,6 +35,7 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+
 ![half adder truth table](https://github.com/user-attachments/assets/990364b4-f353-4d7b-a7bd-95d89dd97af6)
 
 ![half subtractor truth table](https://github.com/user-attachments/assets/ed7421ba-cf5f-44cd-ba77-33a83801af86)
@@ -63,18 +64,27 @@ i)HALF ADDER
 
 module ha(a,b,sum,carry);
 input a,b;
+
 output sum,carry;
+
 assign sum= (a ^ b);
+
 assign carry= ( a & b);
+
 endmodule
 
 ii)HALF SUBTRACTOR
 
 module hs(a,b,difference,borrow);
+
 input a,b;
+
 output difference,borrow;
+
 assign difference= (a ^ b);
+
 assign borrow= ( ~a & b);
+
 endmodule
 
 
