@@ -28,11 +28,13 @@ Borrow = A’B
 
 
 **Truthtable**
+**Half adder**
 
-![half adder truth table](https://github.com/user-attachments/assets/990364b4-f353-4d7b-a7bd-95d89dd97af6)
+![half adder](https://github.com/user-attachments/assets/fb11cf3b-7b08-4f52-865b-d1c9b458b8be)
 
-![half subtractor truth table](https://github.com/user-attachments/assets/ed7421ba-cf5f-44cd-ba77-33a83801af86)
+**Half subtractor**
 
+![half subtractor](https://github.com/user-attachments/assets/9697b3cb-83e5-405a-bab4-5d46fa0e3edf)
 
 **Procedure**
 
@@ -75,15 +77,21 @@ ii)HALF SUBTRACTOR
 
 **RTL Schematic**
 **Half adder**
+
 ![experiment3 half adder logic diagram](https://github.com/user-attachments/assets/3c80950b-f046-42ff-bb92-a4ed16c12394)
 
+
 **Half subtractor**
+
 ![experiment3 half subractor logic diagram](https://github.com/user-attachments/assets/fcaf0380-7265-42e1-9575-7c16a6f30110)
 
 **Output/TIMING Waveform**
 half adder
+
 ![experiment3 half adder waveform](https://github.com/user-attachments/assets/c4618a8f-395f-4683-8984-1eddf7863857)
+
 half subtractor
+
 ![experiment3 half subractor waveform](https://github.com/user-attachments/assets/55b38c2a-5287-4ab8-84f7-d1dc19a78ed6)
 **Result:**
 The truth table of the specified half adder and half subtractor was successfully implemented and verified using Verilog
