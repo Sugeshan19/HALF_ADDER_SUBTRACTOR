@@ -28,6 +28,7 @@ Borrow = A’B
 
 
 **Truthtable**
+
 **Half adder**
 
 ![half adder](https://github.com/user-attachments/assets/fb11cf3b-7b08-4f52-865b-d1c9b458b8be)
